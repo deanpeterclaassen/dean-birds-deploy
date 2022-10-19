@@ -17,10 +17,7 @@ h1{
     align-items: center;
     
 }
-div{
-    border: 5px solid black;
-    
-}
+
 .buy{
     display: flex;
     justify-content: center;
