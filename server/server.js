@@ -9,7 +9,7 @@ app.use(cors())
 const {getHTML} = require('./controller')
 app.use(express.static('public'))
 app.get('/',getHTML)
-app.get('/',getPoo)
+
 
 const port = process.env.PORT || 4000
 
