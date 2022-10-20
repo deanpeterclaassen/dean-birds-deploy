@@ -15,7 +15,7 @@ const port = process.env.PORT || 4000
 
 var Rollbar = require("rollbar");
 var rollbar = new Rollbar({
-  accessToken: TOKEN,
+  accessToken: 'f6182754120f49538c2103549121a51f',
   captureUncaught: true,
   captureUnhandledRejections: true
 });
